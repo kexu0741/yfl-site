@@ -1,21 +1,104 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Static website: home</title>
+    <title>YFL Entertainment</title>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
     <style>
         body {
-            width: 600px;
-            margin: 0 auto;
+            background-image: url('/img/sky.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+
+            font-family: 'Courier New', monospace;
+            color: red;
+        }
+        h1 {
+            text-align: center;
+            font-size: 300px;
+        }
+        #photos {
+            text-align: center;
+        }
+        .artist{
+            display: inline-block;
+        }
+        .guy {
+            float: left;
+            height: 200px;
+            width: 200px;
+        }
+        .logo {
+            height: 50px;
+            width: 50px;
         }
     </style>
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-<h1>Home page!</h1>
-
-<div>
-    Hello there! I'm index.html page of static website hosted on <a href="https://www.heroku.com/">mighty and glorious Heroku</a>!
-    <div><a href="other-page.html">And I'm link on other page</a></div>
-</div>
+<h1>YFL</h1>
+<section id="photos">
+    <div class="artist">
+        <p>IT'S MIDNIGHT</p>
+        <img class="guy" src="/img/midnight.jpg"/>
+        <p> 
+            <a href="https://open.spotify.com/artist/3c9fCrSEh760DiJtqwS3En?si=eqV5UNrhRpOmLJ5qVCWs8w/">
+            <img class="logo" src="/img/spotify.png" >
+            </a>
+            <a href="https://music.apple.com/us/artist/its-midnight/1535705340">
+            <img class="logo" src="/img/apple.png">
+            </a>
+            <a href="https://www.instagram.com/itsmdnight/">
+            <img class="logo" src="/img/instaj.png">
+            </a>
+        </p>
+    </div>
+    <div class="artist">
+        <p>IIICEMAN JG</p>
+        <img class="guy" src="/img/iiice.jpg"/>
+        <p> 
+            <a href="https://open.spotify.com/artist/3EY2PcRn9ySkofnO1L4FsA?si=EhAS6SCzQJSYQwYHkKzEsQ">
+            <img class="logo" src="/img/spotify.png"/>
+            </a>
+            <a href="https://music.apple.com/us/artist/iiiceman-jg/1490787696">
+            <img class="logo" src="/img/apple.png">
+            </a>
+            <a href="https://www.instagram.com/iiice_jg/">
+            <img class="logo" src="/img/instaj.png">
+            </a>
+        </p>
+    </div>
+    <div class="artist">
+        <p>KEV</p>
+        <img class="guy" src="/img/kev.jpg"/>
+        <p>         
+            <a href="https://kevinyesen.bandcamp.com/">    
+            <img class="logo" src="/img/bandcamp.png"/>
+            </a>
+            <a href="https://www.instagram.com/kevin.xu86/">
+            <img class="logo" src="/img/instaj.png">
+            </a>
+        </p>
+    </div>
+    <div class="artist">
+        <p>FRANK JOSE</p>
+        <img class="guy" src="/img/frank.jpg"/>
+        <p> 
+            <a href="https://open.spotify.com/user/1226317463?si=UUrmMmhvSDC1_WJaMXyvdw">
+            <img class="logo" src="/img/spotify.png"/>
+            </a>
+            <a href="https://www.instagram.com/frank.joze/">
+            <img class="logo" src="/img/instaj.png">
+            </a>
+        </p>
+    </div>
+</section>
 </body>
 </html>
