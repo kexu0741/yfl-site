@@ -1,0 +1,70 @@
+body {
+    font-family: 'Courier New', monospace;
+    color: red;
+}
+h1 {
+    text-align: center;
+    font-size: 800%;
+}
+#photos {
+    text-align: center;
+}
+.artist{
+    display: inline-block;
+    margin: 0 auto
+}
+.guy {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+.logo {
+    margin-top: 8%;
+    height: 50px;
+    width: 50px;
+}
+.logo-soundcontent {
+    margin-top: 2%;
+    height: 50px;
+    width: 50px;
+}
+.link {
+    color: red;
+    font-size: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+    text-decoration: none;
+}
+#topHeader {
+    text-align: center;
+    margin-bottom: 5%;
+}
+#nav {
+    justify-content: center;
+    text-align: center;
+/*    margin-top: 5%;*/
+    margin-bottom: 5%;
+}
+#photos {
+    justify-content: center;
+}
+.soundContent {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 991px) {
+  .guy {
+    float: none;
+  }
+  .vid {
+    width: 50%;
+    height: 50%;
+  }
+  .coverart {
+    width: 50%;
+    height: 50%;
+  }
+}
