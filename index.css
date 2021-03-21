@@ -59,6 +59,10 @@ h2 {
     margin-bottom: 5%;
 }
 
+.wip {
+    text-align: center;
+}
+
 @media (max-width: 991px) {
   .guy {
     float: none;
